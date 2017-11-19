@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import TicTacToe from './components/TicTacToe'
+import Timer from './components/Timer'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           This React App contains information about the GitHub Pages I've published
         </p>
         <TicTacToe />
+        <Timer />
       </div>
     );
   }
