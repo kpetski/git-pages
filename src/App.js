@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import TicTacToe from './components/TicTacToe'
 import Timer from './components/Timer'
+import TableFetch from './components/TableFetch'
 
 class App extends Component {
   render() {
@@ -13,10 +14,11 @@ class App extends Component {
           <h1 className="App-title">Keri's Git Pages</h1>
         </header>
         <p className="App-intro">
-          This React App contains information about the GitHub Pages I've published
+          This React App contains information about my published GitHub Pages
         </p>
         <TicTacToe />
         <Timer />
+        <TableFetch />
       </div>
     );
   }
