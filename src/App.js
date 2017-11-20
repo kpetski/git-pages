@@ -5,6 +5,7 @@ import TicTacToe from './components/TicTacToe'
 import Timer from './components/Timer'
 import TableFetch from './components/TableFetch'
 import Calculator from './components/Calculator'
+import PlayNine from './components/PlayNine'
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
         <Timer />
         <TableFetch />
         <Calculator />
+        <PlayNine />
       </div>
     );
   }
