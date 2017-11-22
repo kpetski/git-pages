@@ -7,6 +7,7 @@ import TableFetch from './components/TableFetch'
 import Calculator from './components/Calculator'
 import PlayNine from './components/PlayNine'
 import GitApiCards from './components/GitApiCards'
+import PokemonDoubleDamage from './components/PokemonDoubleDamage'
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
         <GitApiCards />
         <Calculator />
         <PlayNine />
+        <PokemonDoubleDamage />
       </div>
     );
   }
