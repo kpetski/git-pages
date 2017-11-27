@@ -7,13 +7,14 @@ In order to deploy project, it has to be static.  Does not work for server/expre
   2. terminal `npm run build`
   3. terminal `yarn add --dev gh-pages`
   4. add the following scripts to package.json
-          ```
-          "scripts": {
-          // ...
-          "predeploy": "npm run build",
-          "deploy": "gh-pages -d build"
-          }
-          ```
+
+        ```js
+        "scripts": {
+          // ...
+          "predeploy": "npm run build",
+          "deploy": "gh-pages -d build"
+        }
+        ```
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
