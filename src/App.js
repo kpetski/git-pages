@@ -8,6 +8,7 @@ import Calculator from './components/Calculator'
 import PlayNine from './components/PlayNine'
 import GitApiCards from './components/GitApiCards'
 import PokemonDoubleDamage from './components/PokemonDoubleDamage'
+import Weather from './components/Weather'
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
         <TicTacToe />
         <Timer />
         <TableFetch />
+        <Weather />
         <GitApiCards />
         <Calculator />
         <PlayNine />
