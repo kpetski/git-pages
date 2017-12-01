@@ -1,6 +1,8 @@
 # git-pages
 This is a react app that has info for my projects with a github page.
 
+[Deployed app](https://kpetski.github.io/git-pages/)
+
 ## Adding project to github pages
 In order to deploy project, it has to be static.  Does not work for server/express apps.  Add gitpages after the project has been created by: 
   1. edit package.json by adding "homepage": "https://${gitUserName}.github.io/${repo-name}",
