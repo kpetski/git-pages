@@ -16,6 +16,14 @@ In order to deploy project, it has to be static.  Does not work for server/expre
         }
         ```
 
+## Deploying to github pages
+Within project directory, run the following commands
+```
+yarn run build
+yarn run deploy
+``` 
+should now be able to go to url and see your deployed app!!
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
